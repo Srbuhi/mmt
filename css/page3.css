@@ -1,6 +1,6 @@
-body { background-color : rgba(229, 247, 255, 0.48); }
+body { margin:0; }
 
-.first_part_of_the_header {
+.header__firstBox {
     width            : 100%;
     height           : 45px;
     background-color : #404040;
@@ -8,11 +8,11 @@ body { background-color : rgba(229, 247, 255, 0.48); }
     }
 
 .header {
-    width  : 90%;
+    width  : 100%;
     margin : 0 auto;
     }
 
-.second_part_of_the_header {
+.header__secondBox {
     position         : relative;
     width            : 100%;
     height           : 70px;
@@ -40,7 +40,7 @@ body { background-color : rgba(229, 247, 255, 0.48); }
     color           : rgba(208, 208, 208, 0.67);
     }
 
-.first_menu_in_the_header {
+.header__firstBox__menu {
     /*list-style-type:none;*/
     margin  : 0;
     padding : 0;
@@ -48,14 +48,14 @@ body { background-color : rgba(229, 247, 255, 0.48); }
     display : inline-block;
     }
 
-.list_items {
+.header__firstBox__menu__listItems {
     display     : inline-block;
     margin      : 12px;
     font-family : arial, sans-serif;
     font-size   : 14px;
     }
 
-.list-item-links {
+.header__firstBox__menu__listItem__link {
     text-decoration : none;
     color           : rgba(208, 208, 208, 0.67);
     }
@@ -65,7 +65,7 @@ body { background-color : rgba(229, 247, 255, 0.48); }
     padding : 4px;
     }
 
-.second_menu_in_the_header {
+.header__secondBox__menu {
     position        : absolute;
     top             : 3px;
     right           : 10px;
@@ -73,11 +73,11 @@ body { background-color : rgba(229, 247, 255, 0.48); }
     list-style-type : none;
     }
 
-.list_items-2 {
+.header__secondBox__menu__listItems {
     display : inline-block;
     }
 
-.list-item-links-2 {
+.header__secondBox__menu__listItem__link {
     text-decoration : none;
     color           : #404040;
     font-family     : verdana, sans-serif;
@@ -153,8 +153,8 @@ body { background-color : rgba(229, 247, 255, 0.48); }
     left          : 17px;
     }
 
-.content {
-    width  : 90%;
+.page__content {
+    width  : 100%;
     margin : 0 auto;
     }
 
@@ -171,7 +171,7 @@ body { background-color : rgba(229, 247, 255, 0.48); }
     background-color : rgba(208, 208, 208, 0.67);
     }
 
-.square {
+.box {
     position      : absolute;
     width         : 50px;
     height        : 50px;
@@ -238,7 +238,7 @@ body { background-color : rgba(229, 247, 255, 0.48); }
 
 .footer {
     position         : relative;
-    width            : 90%;
+    width            : 100%;
     height           : 75px;
     background-color : #404040;
     color            : rgba(208, 208, 208, 0.67);
@@ -251,7 +251,7 @@ body { background-color : rgba(229, 247, 255, 0.48); }
     font-size : 12px;
     position  : absolute;
     top       : 30px;
-    left      : 575px;
+    left      : 700px;
     }
 
 .active { background-color : #404040;
